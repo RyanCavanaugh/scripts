@@ -4,4 +4,4 @@
 
 then
 
-> `choco install wget -y && pushd %temp% && wget http://raw.githubusercontent.com/RyanCavanaugh/scripts/master/choco/packages.config --no-check-certificate && choco install packages.config`
+> `choco install wget -y && pushd %temp% && del packages.config && wget http://raw.githubusercontent.com/RyanCavanaugh/scripts/master/choco/packages.config --no-check-certificate -O packages.config && choco install packages.config`
