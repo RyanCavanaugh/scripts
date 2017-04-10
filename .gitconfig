@@ -8,7 +8,8 @@
 	gcwarning = false
 [core]
 	editor = 'c:/program files/sublime text 3/subl.exe' -w
-	excludesfile = C:\\Users\\ryanca\\Dropbox\\.gitignore
+	excludesfile = ~/.gitignore
+	hooksPath = ~/hooks
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
