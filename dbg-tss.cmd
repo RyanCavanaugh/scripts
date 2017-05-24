@@ -1,0 +1,1 @@
+node -e "process._debugProcess(%1)"
