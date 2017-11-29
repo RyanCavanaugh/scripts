@@ -1,1 +1,1 @@
-@wmic process where "CommandLine like '%%tsserver.js%%' AND Name='node.exe'" get ProcessId
+@wmic process where "CommandLine like '%%cancellationPipeName%%' AND Name='node.exe'" get ProcessId

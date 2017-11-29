@@ -10,6 +10,7 @@
 	editor = 'c:/program files/sublime text 3/subl.exe' -w
 	excludesfile = ~/.gitignore
 	hooksPath = ~/hooks
+	longpaths = true
 [filter "lfs"]
 	clean = git-lfs clean -- %f
 	smudge = git-lfs smudge -- %f
