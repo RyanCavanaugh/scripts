@@ -1,0 +1,1 @@
+@call node --inspect-brk \github\tsbuild\bin\index.js %*

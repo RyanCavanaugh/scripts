@@ -1,0 +1,1 @@
+@call node C:\github\tsbuild\bin\index.js %*
